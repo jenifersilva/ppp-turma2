@@ -5,7 +5,6 @@ import { expect } from "https://jslib.k6.io/k6-testing/0.5.0/index.js";
 export const options = {
   vus: 10,
   duration: "30s",
-  //iterations: 10 // cada usuário vai executar o teste 10 vezes
 };
 
 export default function () {
