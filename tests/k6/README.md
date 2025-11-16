@@ -19,24 +19,26 @@ Executar os testes na nuvem:
 5. Acessar Testing & synthetics > Performance > Settings
 6. Copiar o Personal API Token
 7. Executar testes na nuvem:
-   7.1. Opção 1:
 
-   - Executar no terminal o comando a seguir para fazer login na cloud: `k6 cloud login --token <personal api token>`
-   - Executar no terminal o comando a seguir para executar o teste: `k6 cloud run tests/k6/create-lesson-test.js`
+- Opção 1:
 
-     7.2. Opção 2:
+* Executar no terminal o comando a seguir para fazer login na cloud: `k6 cloud login --token <personal api token>`
+* Executar no terminal o comando a seguir para executar o teste: `k6 cloud run tests/k6/create-lesson-test.js`
 
-   - Executar no terminal: `K6_CLOUD_TOKEN=<PERSONAL_API_TOKEN> k6 cloud run tests/k6/create-lesson-test.js`
+- Opção 2:
+
+* Executar no terminal: `K6_CLOUD_TOKEN=<PERSONAL_API_TOKEN> k6 cloud run tests/k6/create-lesson-test.js`
 
 8. Executar testes localmente e faz o upload para a nuvem:
-   7.1. Opção 1:
 
-   - Executar no terminal o comando a seguir para fazer login na cloud: `k6 cloud login --token <personal api token>`
-   - Executar no terminal o comando a seguir para executar o teste: `k6 cloud run --local-execution tests/k6/create-lesson-test.js`
+- Opção 1:
 
-     7.2. Opção 2:
+* Executar no terminal o comando a seguir para fazer login na cloud: `k6 cloud login --token <personal api token>`
+* Executar no terminal o comando a seguir para executar o teste: `k6 cloud run --local-execution tests/k6/create-lesson-test.js`
 
-   - Executar no terminal: `K6_CLOUD_TOKEN=<PERSONAL_API_TOKEN> k6 cloud run --local-execution tests/k6/create-lesson-test.js`
+- Opção 2:
+
+* Executar no terminal: `K6_CLOUD_TOKEN=<PERSONAL_API_TOKEN> k6 cloud run --local-execution tests/k6/create-lesson-test.js`
 
 jenifersilva
 5668720
