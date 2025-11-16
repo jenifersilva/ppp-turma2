@@ -1,10 +1,10 @@
 Iniciar JMeter:
 
-jmeter
+`jmeter`
 
 Gerar report JMeter e salvar na pasta (caminho do executável, arquivo jmx a ser executado, caminho da pasta de report:
 
-/opt/homebrew/bin//jmeter -n -t "workspace/ppp-turma2/tests/jmeter/Teste de Performance de Fluxo de Instrutores.jmx" -l "workspace/ppp-turma2/tests/jmeter/report-jmeter/log.csv"
+`/opt/homebrew/bin//jmeter -n -t "workspace/ppp-turma2/tests/jmeter/Teste de Performance de Fluxo de Instrutores.jmx" -l "workspace/ppp-turma2/tests/jmeter/report-jmeter/log.csv"`
 
 
 
